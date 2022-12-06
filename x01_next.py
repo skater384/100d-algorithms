@@ -9,12 +9,16 @@ False indicates it should be skipped, True indicates it should not be skipped.
 Create a funtion that receives 2 input paramters, the curValue and the list Data
 Return the index of the next item to be used
 """
-
-def next(current , myList):
-  '''
+'''
   determine the next item from the list. The list contains False/True Boolean values
   that indicate whether the current item can be used
   '''
+def next(x , data):
+ for i in data:
+   if i == False:
+    pass
+    if i == True:
+      
   return None
 
 def main():
