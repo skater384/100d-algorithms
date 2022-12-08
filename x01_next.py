@@ -13,12 +13,14 @@ Return the index of the next item to be used
   determine the next item from the list. The list contains False/True Boolean values
   that indicate whether the current item can be used
   '''
-def next(x , data):
+
+
+def next(x, data):
  for i in data:
    if i == False:
     pass
     if i == True:
-      
+
   return None
 
 def main():
@@ -44,5 +46,5 @@ def main():
   
   
 
-if __name__ == "__main__:
+if __name__ == "__main__":
   main()
